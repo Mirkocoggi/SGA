@@ -14,5 +14,5 @@ ExternalProject_Add(gfatools
 
 add_library(sga INTERFACE)
 target_include_directories(sga INTERFACE "${CMAKE_SOURCE_DIR}/include/sga" "${CMAKE_SOURCE_DIR}/extern/klib" "${CMAKE_SOURCE_DIR}/extern/gfatools")
-target_link_libraries(sga INTERFACE ZLIB::ZLIB "${CMAKE_SOURCE_DIR}/extern/gfatools/libgfa1.a")
+target_link_libraries(sga INTERFACE "${CMAKE_SOURCE_DIR}/extern/gfatools/libgfa1.a" ZLIB::ZLIB)
 add_dependencies(sga gfatools)

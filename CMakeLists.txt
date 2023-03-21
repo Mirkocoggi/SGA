@@ -6,6 +6,9 @@ project(SGA DESCRIPTION "Implementation of sequence to graph alignment algorithm
 set(CMAKE_CXX_STANDARD 11)
 message(STATUS "Build type: " ${CMAKE_BUILD_TYPE})
 
+# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lz ")
+
+
 add_subdirectory(src)
 add_subdirectory(apps)
 
