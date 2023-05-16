@@ -9,7 +9,7 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
-
+#include <cstdint>
 #include "gfa.h"
 //#include "khash.h"
 #include "sequence.h"
