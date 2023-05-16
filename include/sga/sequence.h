@@ -5,9 +5,9 @@
 
 #include <cstring>
 #include <iostream>
-#include <string>
 #include <cstdint>
-#include "utils.h"
+#include <string>
+
 
 namespace sga {
 class Sequence {
