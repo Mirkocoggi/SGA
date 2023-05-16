@@ -6,6 +6,7 @@
 #include <cstring>
 #include <iostream>
 #include <string>
+#include <cstdint>
 
 namespace sga {
 class Sequence {
