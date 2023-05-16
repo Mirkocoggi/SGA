@@ -7,6 +7,7 @@
 #include <iostream>
 #include <string>
 #include <cstdint>
+#include "utils.h"
 
 namespace sga {
 class Sequence {
